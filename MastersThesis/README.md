@@ -8,7 +8,7 @@ lexicographic order over the set of corresponding E-sequences.
 
 One important application of trees with `n` nodes and `k` leaves is in generating secondary structures of RNAs with `2n+k-2` nucleotides and `n-1` basepairs.
 
-Time complexity of generation algorithm is `O(n+m)` while the only existing generation algorithm is of `O(nm)`. No other rank nor unrank algorithms are known in the literature.
+Time complexity of generation algorithm is `O(n+k)` while the only existing generation algorithm is of `O(nk)`. No other rank nor unrank algorithms are known in the literature.
 
 
 To use this code, please cite the following:
